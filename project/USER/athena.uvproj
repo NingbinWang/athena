@@ -563,6 +563,9 @@
             </File>
           </Files>
         </Group>
+        <Group>
+          <GroupName>HARDWARE</GroupName>
+        </Group>
       </Groups>
     </Target>
   </Targets>
