@@ -1,0 +1,41 @@
+(ExpressProject "athena"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\athena.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\SOFTWARE\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "D:\00PROJECT\athena\EE\athena.dsn")
+      (Path "Design Resources" "D:\00PROJECT\athena\EE\athena.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "D:\00PROJECT\athena\EE\athena.dsn"
+         "Design Cache"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 342"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 236 1417 10 390")
+        (Scroll "-81 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\00PROJECT\ATHENA\EE\ATHENA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "01_Block Diagram"))))
