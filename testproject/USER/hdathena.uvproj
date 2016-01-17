@@ -350,7 +350,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\USER;..\STM32F10x_FWLib\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart</IncludePath>
+              <IncludePath>..\CORE;..\USER;..\STM32F10x_FWLib\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\BSP\Timer</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -565,6 +565,13 @@
         </Group>
         <Group>
           <GroupName>BSP</GroupName>
+          <Files>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\Timer\timer.c</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>
