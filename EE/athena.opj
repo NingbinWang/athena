@@ -2,7 +2,9 @@
   (ProjectVersion "19981106")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File ".\stm32.olb"
+        (Type "Schematic Library")))
     (NoModify)
     (File ".\athena.dsn"
       (Type "Schematic Design"))
@@ -29,18 +31,21 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\athena.dsn")
-      (Path "Design Resources" ".\athena.dsn" "SCHEMATIC1"))
+      (Path "Design Resources" ".\athena.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\stm32.olb")
+      (Select "Design Resources" "Library" ".\stm32.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 342"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 342"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 236 1417 10 390")
-        (Scroll "272 0")
+        (Scroll "272 40")
         (Zoom "200")
         (Occurrence "/"))
       (Path "D:\00PROJECT\ATHENA\EE\ATHENA.DSN")
@@ -50,10 +55,21 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 175 1360 175 559")
-        (Scroll "-83 2")
+        (Scroll "-83 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\00PROJECT\ATHENA\EE\ATHENA.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "02_MCU")))
+      (Page "02_MCU"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 100 1285 100 484")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1659 290")
+        (Zoom "395"))
+      (Path "D:\00project\athena\EE\STM32.OLB")
+      (Package "STM32F103C8")))
   (MPSSessionName "Alex1_Wang"))
