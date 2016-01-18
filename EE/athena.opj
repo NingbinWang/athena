@@ -1,6 +1,5 @@
 (ExpressProject "athena"
   (ProjectVersion "19981106")
-  (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
       (File ".\stm32.olb"
@@ -9,17 +8,36 @@
     (File ".\athena.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
+    (CompileFileAddedOrDeleted "x")
+    (FLDSTUFF_Scope "0")
+    (FLDSTUFF_Action "0")
+    (FLDSTUFF_Report_File ".\stm32.RPT")
+    (FLDSTUFF_Update_File ".\stm32.UPD")
+    (FLDSTUFF__Uppercase_Result_Property "FALSE")
+    (FLDSTUFF_Uppercase_Update_Property "FALSE")
+    (FLDSTUFF_Uppercase_Unconditionally "FALSE")
+    (FLDSTUFF_Visibility "0")
+    (FLDSTUFF_inst_or_occurrence "0")
+    (FLDSTUFF_Create_Report_File "FALSE"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (STM32F103
-      (FullPartName "STM32F103.Normal")
-      (LibraryName "D:\00PROJECT\ATHENA\EE\STM32.OLB")
-      (DeviceIndex "0"))
     (GND
       (LibraryName
          "D:\SOFTWARE\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName
+         "D:\SOFTWARE\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL
+      (FullPartName "CRYSTAL.Normal")
+      (LibraryName
+         "D:\SOFTWARE\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (STM32F103
+      (FullPartName "STM32F103.Normal")
+      (LibraryName "D:\00PROJECT\ATHENA\EE\STM32.OLB")
       (DeviceIndex "0"))
     ("CAP NP"
       (FullPartName "CAP NP.Normal")
@@ -34,6 +52,8 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" ".\athena.dsn")
+      (Path "Design Resources" ".\athena.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\stm32.olb"))
     (HierarchyView)
@@ -42,17 +62,6 @@
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 200 0 342"))
       (Tab 0))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 100 1285 100 484")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "558 266")
-        (Zoom "192"))
-      (Path "D:\00PROJECT\ATHENA\EE\STM32.OLB")
-      (Package "STM32F103"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
@@ -66,8 +75,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 1360 175 559")
-        (Scroll "-83 0")
+        (Placement "44 2 3 -1 -1 -8 -30 175 1360 175 559")
+        (Scroll "-15 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\00PROJECT\ATHENA\EE\ATHENA.DSN")
