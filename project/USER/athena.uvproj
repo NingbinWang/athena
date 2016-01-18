@@ -571,6 +571,11 @@
               <FileType>1</FileType>
               <FilePath>..\BSP\Timer\timer.c</FilePath>
             </File>
+            <File>
+              <FileName>MPU6050.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\MPU6050\MPU6050.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

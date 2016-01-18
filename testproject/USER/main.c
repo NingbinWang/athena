@@ -1,6 +1,7 @@
 #include "delay.h"
 #include "stm32f10x.h"
 #include "timer.h"
+#include "MPU6050.h"
  int main(void)
  {	
 	 	delay_init();	    	 //延时函数初始化	  
