@@ -707,7 +707,7 @@
   </Group>
 
   <Group>
-    <GroupName>HARDWARE</GroupName>
+    <GroupName>BSP</GroupName>
     <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>

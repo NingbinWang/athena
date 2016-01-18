@@ -13,6 +13,10 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (STM32F103
+      (FullPartName "STM32F103.Normal")
+      (LibraryName "D:\00PROJECT\ATHENA\EE\STM32.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName
          "D:\SOFTWARE\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -30,11 +34,8 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\athena.dsn")
-      (Path "Design Resources" ".\athena.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\stm32.olb")
-      (Select "Design Resources" "Library" ".\stm32.olb"))
+      (Path "Design Resources" "Library" ".\stm32.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -42,10 +43,21 @@
         (Placement "44 0 1 -1 -1 -8 -30 0 200 0 342"))
       (Tab 0))
     (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 100 1285 100 484")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "558 266")
+        (Zoom "192"))
+      (Path "D:\00PROJECT\ATHENA\EE\STM32.OLB")
+      (Package "STM32F103"))
+    (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 236 1417 10 390")
-        (Scroll "272 40")
+        (Scroll "613 80")
         (Zoom "200")
         (Occurrence "/"))
       (Path "D:\00PROJECT\ATHENA\EE\ATHENA.DSN")
@@ -62,14 +74,13 @@
       (Schematic "SCHEMATIC1")
       (Page "02_MCU"))
     (Doc
-      (Type "COrPartDoc")
+      (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 100 1285 100 484")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "1659 290")
-        (Zoom "395"))
-      (Path "D:\00project\athena\EE\STM32.OLB")
-      (Package "STM32F103C8")))
+        (Placement "44 0 1 -1 -1 -8 -30 75 1260 75 459")
+        (Scroll "-83 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\00PROJECT\ATHENA\EE\ATHENA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "03_Power")))
   (MPSSessionName "Alex1_Wang"))

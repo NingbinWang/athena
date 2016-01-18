@@ -564,7 +564,7 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>HARDWARE</GroupName>
+          <GroupName>BSP</GroupName>
         </Group>
       </Groups>
     </Target>
