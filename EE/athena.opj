@@ -63,10 +63,32 @@
         (Placement "44 0 1 -1 -1 -8 -30 0 200 0 342"))
       (Tab 0))
     (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 100 1250 100 484")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1635 250")
+        (Zoom "395"))
+      (Path "D:\00PROJECT\ATHENA\EE\STM32.OLB")
+      (Package "MPU6050"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1275 125 509")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "0 0")
+        (Zoom "83"))
+      (Path "D:\00PROJECT\ATHENA\EE\STM32.OLB")
+      (Package "STM32F103C8"))
+    (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 236 1417 10 390")
-        (Scroll "613 80")
+        (Scroll "613 440")
         (Zoom "200")
         (Occurrence "/"))
       (Path "D:\00PROJECT\ATHENA\EE\ATHENA.DSN")
@@ -75,8 +97,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 175 1360 175 559")
-        (Scroll "-15 0")
+        (Placement "44 0 1 -1 -1 -8 -30 175 1360 175 559")
+        (Scroll "-83 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\00PROJECT\ATHENA\EE\ATHENA.DSN")
