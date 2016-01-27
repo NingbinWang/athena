@@ -1,0 +1,60 @@
+Component Name : STM32F103
+
+Part Count : 2
+
+Part : U?
+     Pins - (Normal) : 0
+          Hidden Pins : 
+
+Part : U?
+     Pins - (Normal) : 48
+          PA0            10             Passive
+          PA1            11             Passive
+          PA2            12             Passive
+          PA3            13             Passive
+          PA4            14             Passive
+          PA5            15             Passive
+          PA6            16             Passive
+          PA7            17             Passive
+          PA8            29             Passive
+          PA9            30             Passive
+          PA10           31             Passive
+          PA11           32             Passive
+          PA12           33             Passive
+          PA13/JTMS/SWDIO34             Passive
+          PA14/JTCK/SWCLK37             Passive
+          PA15/JTDI      38             Passive
+          OSC_IN/PD0     5              Passive
+          OSC_OUT/PD1    6              Passive
+          BOOT0          44             Passive
+          NRST           7              Passive
+          VBAT           1              Passive
+          VDD_1          24             Passive
+          VDD_2          36             Passive
+          VDD_3          48             Passive
+          VDDA           9              Passive
+          PB0            18             Passive
+          PB1            19             Passive
+          PB2/BOOT1      20             Passive
+          PB3/JTDO       39             Passive
+          PB4/JNRST      40             Passive
+          PB5            41             Passive
+          PB6            42             Passive
+          PB7            43             Passive
+          PB8            45             Passive
+          PB9            46             Passive
+          PB10           21             Passive
+          PB11           22             Passive
+          PB12           25             Passive
+          PB13           26             Passive
+          PB14           27             Passive
+          PB15           28             Passive
+          PC13-TAMPER-RTC2              Passive
+          PC14-OSC32_IN  3              Passive
+          PC15-OSC32_OUT 4              Passive
+          VSS_1          23             Passive
+          VSS_2          35             Passive
+          VSS_3          47             Passive
+          VSSA           8              Passive
+          Hidden Pins : 
+

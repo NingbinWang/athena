@@ -3,6 +3,8 @@
   (Folder "Design Resources"
     (Folder "Library"
       (File ".\stm32.olb"
+        (Type "Schematic Library"))
+      (File ".\sensor.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\athena.dsn"
@@ -52,44 +54,47 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\athena.dsn")
-      (Path "Design Resources" ".\athena.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "d:\00project\athena\ee\athena.dsn")
+      (Path "Design Resources" "d:\00project\athena\ee\athena.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\stm32.olb"))
+      (Path "Design Resources" "Library" "d:\00project\athena\ee\stm32.olb")
+      (Path "Design Resources" "Library" "d:\00project\athena\ee\sensor.olb")
+      (Select "Design Resources" "d:\00project\athena\ee\athena.dsn"
+         "SCHEMATIC1" "03_Power"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 342"))
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 342"))
       (Tab 0))
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 100 1250 100 484")
+        (Placement "44 0 1 -1 -1 -8 -30 25 1175 25 409")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "1635 250")
+        (Scroll "1635 450")
         (Zoom "395"))
-      (Path "D:\00PROJECT\ATHENA\EE\STM32.OLB")
+      (Path "D:\00PROJECT\ATHENA\EE\SENSOR.OLB")
       (Package "MPU6050"))
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 1275 125 509")
+        (Placement "44 0 1 -1 -1 -8 -30 150 1300 150 534")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "0 0")
-        (Zoom "83"))
+        (Scroll "1645 261")
+        (Zoom "395"))
       (Path "D:\00PROJECT\ATHENA\EE\STM32.OLB")
-      (Package "STM32F103C8"))
+      (Package "STM32F103T8"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 236 1417 10 390")
-        (Scroll "613 440")
-        (Zoom "200")
+        (Scroll "-81 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "D:\00PROJECT\ATHENA\EE\ATHENA.DSN")
       (Schematic "SCHEMATIC1")
@@ -113,5 +118,15 @@
         (Occurrence "/"))
       (Path "D:\00PROJECT\ATHENA\EE\ATHENA.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "03_Power")))
+      (Page "03_Power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 1300 150 534")
+        (Scroll "-66 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\00PROJECT\ATHENA\EE\ATHENA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "04_Sensor")))
   (MPSSessionName "Alex1_Wang"))
