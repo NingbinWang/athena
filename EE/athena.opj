@@ -54,30 +54,14 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\00project\athena\ee\athena.dsn")
-      (Path "Design Resources" "d:\00project\athena\ee\athena.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "d:\00project\athena\ee\stm32.olb")
-      (Path "Design Resources" "Library" "d:\00project\athena\ee\sensor.olb")
-      (Select "Design Resources" "d:\00project\athena\ee\athena.dsn"
-         "SCHEMATIC1" "03_Power"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 342"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 342"))
       (Tab 0))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 1175 25 409")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "1635 450")
-        (Zoom "395"))
-      (Path "D:\00PROJECT\ATHENA\EE\SENSOR.OLB")
-      (Package "MPU6050"))
     (Doc
       (Type "COrPartDoc")
       (Frame
@@ -102,9 +86,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 1360 175 559")
-        (Scroll "-83 0")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -8 -30 175 1360 175 559")
+        (Scroll "448 168")
+        (Zoom "200")
         (Occurrence "/"))
       (Path "D:\00PROJECT\ATHENA\EE\ATHENA.DSN")
       (Schematic "SCHEMATIC1")
@@ -128,5 +112,16 @@
         (Occurrence "/"))
       (Path "D:\00PROJECT\ATHENA\EE\ATHENA.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "04_Sensor")))
+      (Page "04_Sensor"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 1175 25 409")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1635 450")
+        (Zoom "395"))
+      (Path "D:\00PROJECT\ATHENA\EE\SENSOR.OLB")
+      (Package "MPU6050")))
   (MPSSessionName "Alex1_Wang"))
