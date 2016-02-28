@@ -350,7 +350,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\USER;..\STM32F10x_FWLib\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\BSP\Timer;..\BSP\MPU6050</IncludePath>
+              <IncludePath>..\CORE;..\USER;..\STM32F10x_FWLib\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\BSP\Timer;..\BSP\MPU6050;..\BSP;..\BSP\Led;..\BSP\Motor;..\BSP\Battery</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -575,6 +575,21 @@
               <FileName>MPU6050.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\BSP\MPU6050\MPU6050.c</FilePath>
+            </File>
+            <File>
+              <FileName>sysconfig.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BSP\sysconfig.h</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\Led\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>motor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\Motor\motor.c</FilePath>
             </File>
           </Files>
         </Group>

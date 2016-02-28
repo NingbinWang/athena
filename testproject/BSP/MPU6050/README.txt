@@ -1,3 +1,4 @@
+# EngLish Version
 ============================================================================
     For More details, visit: http://harinadha.wordpress.com
 ============================================================================
@@ -14,3 +15,11 @@ stm32f10x.h
 stm32f10x_i2c.h
 
 Want a library for a device that isn't up on the repository? Request it, or fork the code and contribute! Better yet, send me a device on a breakout board to test the code during development. No guarantees on how fast I can get it done, but I'd love to make good consistent and well-documented library for ARM STM32F103xx platform.
+
+# 中文版
+==============================================================================================
+    想要了解该模块的更多细节, 请看：http://harinadha.wordpress.com （目前而言这个网址已经失效）
+==============================================================================================
+
+以上内容暂且不翻译
+
