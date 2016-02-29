@@ -47,9 +47,14 @@ I2C PA9 SCL PA10 SDA 用于连接mpu6050
 	 #ifdef USBDEBUG
 	     printf("Motor init ok!\r\n");
 	 #endif
+	 
 	 /**********************************************
 	 主程序入口
 	 ***********************************************/
+	 LED1 = 0;
+	 LED2 = 0;
+	 LED3 = 0;
+	 LED4 = 0;
 	 while(1)
 	 {
 		 printf("[athena]start\r\n");
