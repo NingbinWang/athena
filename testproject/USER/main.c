@@ -11,6 +11,7 @@ I2C PA9 SCL PA10 SDA 用于连接mpu6050
 #include "usart.h"
 #include "led.h"
 #include "motor.h"
+#include "wifi.h"
 
 //==========================================================
 //变量集合
@@ -20,9 +21,9 @@ I2C PA9 SCL PA10 SDA 用于连接mpu6050
  int main(void)
  {	
 	 //<alex-20160228> init uart++++
-	 #ifdef USBDEBUG
 	    NVIC_Configuration(); 	 //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
 	    uart_init(115200);	 //串口初始化为115200
+	 #ifdef USBDEBUG
 	    printf("[athena]usart is ok\r\n");
 	 #endif
 	 //<alex-20160228> init uart----

@@ -1,0 +1,28 @@
+Field=Comment~String~Comment~94|Field=Description~String~Description~94|Field=Designator~String~Designator~340|Field=Footprint~String~Footprint~74|Field=LibRef~String~LibRef~74|Field=Quantity~Integer~Quantity~74|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Aircraft.PrjPCB|ReportField=ProjectFullPath~F:\github\athena\hareware\Aircraft.PrjPCB|ReportField=Title~Bill of Materials For Project [Aircraft.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~93|ReportField=ReportTime~23:56:37|ReportField=ReportDate~2016/3/1|ReportField=ReportDateTime~2016/3/1 23:56:37|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2016/3/1|ReportField=CurrentTime~23:56:34|ReportField=Date~|ReportField=DocumentFullPathAndName~F:\github\athena\hareware\SCH\01_Block Diagram.SchDoc|ReportField=DocumentName~01_Block Diagram.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2016/2/18|ReportField=Organization~|ReportField=ProjectName~Aircraft.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Aircraft.PrjPCB|ReportField=DataSourceFullPath~F:\github\athena\hareware\Aircraft.PrjPCB
+Cap|Capacitor|C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C27|0402|Cap|27
+1N4148|High Conductance Fast Diode|D1|0603|Diode 1N4148|1
+MBR0520|Zener Diode|D2, D3|6-0805_N|D Zener|2
+Header 2|Header, 2-Pin|J1, J2, J3, J4, P1|HDR1X2|Header 2|5
+Inductor|Inductor|L1|0402-A|Inductor|1
+LED0|Typical INFRARED GaAs LED|LED1, LED2, LED3, LED4, LED5, LED6, LED7|J1-0603|LED0|7
+Header 4|Header, 4-Pin|P0|HDR1X4|Header 4|1
+Header 3X2|Header, 3-Pin, Dual row|P2|HDR2X3|Header 3X2|1
+battery|Header, 2-Pin|P3|HDR1X2|Header 2|1
+Header 4X2|Header, 4-Pin, Dual row|P4|HDR2X4|Header 4X2|1
+Header 6|Header, 6-Pin|P5|HDR1X6|Header 6|1
+NPNS8050|NPN Bipolar Transistor|Q1|SOT-23_M|NPN|1
+PNPS8550|PNP Bipolar Transistor|Q2|SOT-23_M|PNP|1
+SI2302||Q3, Q4, Q5, Q6|SOT-23_M|SI2302|4
+Res3|Resistor|R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26|0402|Res3|26
+SW-PB|Switch|RESET|SWFOOT|SW-PB|1
+sw|Header, 2-Pin|SW1|HDR1X2|Header 2|1
+STM32F103||U1|LQFP48S|STM32F103|1
+CH340G||U2|SSOP16_M|CH340G|1
+MIC5205||U3, U5|SOT223_M|MIC5205|2
+LM27313||U4|SOT-233|LM27313|1
+MPU6050||U6|QFN24|MPU6050|1
+MS5611||U7|MS5611 - duplicate|MS5611|1
+HWC5883L||U8|HMC5883L|HMC5883L|1
+Micro USB||USB1|Micro_USB|Micro USB|1
+8MXTAL|Crystal Oscillator|Y1|XTAL2|XTAL|1
+12MXTAL|Crystal Oscillator|Y2|XTAL2|XTAL|1

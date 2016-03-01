@@ -2,12 +2,12 @@
 Version=1.0
 
 [PublishSettings]
-OutputFilePath2=F:\github\athena\hareware\AircraftV2.pdf
+OutputFilePath2=F:\github\athena\hareware\AircraftV3.pdf
 ReleaseManaged2=0
 OutputBasePath2=F:\github\athena\hareware\
 OutputPathMedia2=
 OutputPathOutputer2=[Output Type]
-OutputFileName2=AircraftV2.pdf
+OutputFileName2=AircraftV3.pdf
 OpenOutput2=1
 PromptOverwrite2=1
 PublishMethod2=0
@@ -59,7 +59,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=F:\github\athena\hareware\AircraftV2.pdf
+RelativeOutputPath2=F:\github\athena\hareware\AircraftV3.pdf
 OpenOutputs2=1
 RelativeOutputPath3=F:\github\athena\hareware\Project Outputs for Aircraft\
 OpenOutputs3=1

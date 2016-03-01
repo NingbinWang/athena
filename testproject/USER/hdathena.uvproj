@@ -350,7 +350,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\USER;..\STM32F10x_FWLib\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\BSP\Timer;..\BSP\MPU6050;..\BSP;..\BSP\Led;..\BSP\Motor;..\BSP\Battery</IncludePath>
+              <IncludePath>..\CORE;..\USER;..\STM32F10x_FWLib\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\BSP\Timer;..\BSP\MPU6050;..\BSP;..\BSP\Led;..\BSP\Motor;..\BSP\Battery;..\BSP\h</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -590,6 +590,11 @@
               <FileName>motor.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\BSP\Motor\motor.c</FilePath>
+            </File>
+            <File>
+              <FileName>WIFI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\c\WIFI.c</FilePath>
             </File>
           </Files>
         </Group>
