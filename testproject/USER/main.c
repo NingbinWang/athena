@@ -17,6 +17,7 @@ I2C PA9 SCL PA10 SDA 用于连接mpu6050
 //变量集合
 //==========================================================
  bool mpu6050_status;
+
 //==========================================================
  int main(void)
  {	
@@ -27,7 +28,7 @@ I2C PA9 SCL PA10 SDA 用于连接mpu6050
 	    printf("[athena]usart is ok\r\n");
 	 #endif
 	 //<alex-20160228> init uart----
-	 delay_init(); //delay函数初始化
+	 delay_init(); //delay函数初始化 /*
 	 //<alex-20160228>初始化mpu6050I2C+++++
 	 MPU6050_I2C_Init();
 	 mpu6050_status = MPU6050_TestConnection();
@@ -40,10 +41,11 @@ I2C PA9 SCL PA10 SDA 用于连接mpu6050
 		 return -1;
 	 }
 	 //<alex-20160228>初始化mpu6050I2C-----
+	 
 	 LED_Init(); //初始化LED
-	 MotorInit();//HOW TO TEST
+	 MotorInit();
 	 #ifdef MOTOR_TEST
-	     MotorPwmFlash(100,200,300,400);
+	    MotorPwmFlash(10,10,10,10);
 	 #endif
 	 #ifdef USBDEBUG
 	     printf("Motor init ok!\r\n");

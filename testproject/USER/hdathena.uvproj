@@ -350,7 +350,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\USER;..\STM32F10x_FWLib\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\BSP\Timer;..\BSP\MPU6050;..\BSP;..\BSP\Led;..\BSP\Motor;..\BSP\Battery;..\BSP\h</IncludePath>
+              <IncludePath>..\CORE;..\USER;..\STM32F10x_FWLib\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\BSP\Timer;..\BSP;..\BSP\Led;..\BSP\Motor;..\BSP\Battery;..\BSP\h;..\BSP\MPU6050</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -572,11 +572,6 @@
               <FilePath>..\BSP\Timer\timer.c</FilePath>
             </File>
             <File>
-              <FileName>MPU6050.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\BSP\MPU6050\MPU6050.c</FilePath>
-            </File>
-            <File>
               <FileName>sysconfig.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\BSP\sysconfig.h</FilePath>
@@ -595,6 +590,11 @@
               <FileName>WIFI.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\BSP\c\WIFI.c</FilePath>
+            </File>
+            <File>
+              <FileName>MPU6050.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\MPU6050\MPU6050.c</FilePath>
             </File>
           </Files>
         </Group>

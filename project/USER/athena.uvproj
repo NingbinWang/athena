@@ -525,6 +525,18 @@
         </Group>
         <Group>
           <GroupName>BSP</GroupName>
+          <Files>
+            <File>
+              <FileName>motor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\C\motor.c</FilePath>
+            </File>
+            <File>
+              <FileName>MPU6050.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\C\MPU6050.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>SYSTEM</GroupName>
