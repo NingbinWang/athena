@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>project</TargetName>
+      <TargetName>athena</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <TargetOption>
@@ -535,6 +535,11 @@
               <FileName>MPU6050.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\BSP\C\MPU6050.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\C\led.c</FilePath>
             </File>
           </Files>
         </Group>

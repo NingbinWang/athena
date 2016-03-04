@@ -1,7 +1,6 @@
-#include "delay.h"
-#include "stm32f10x.h"
+#include "system.h"
  int main(void)
  {	
-    
+    return 0;
  }
 

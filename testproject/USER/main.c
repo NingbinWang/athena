@@ -5,14 +5,7 @@
 说明：
 I2C PA9 SCL PA10 SDA 用于连接mpu6050
 */
-#include "sysconfig.h"
-#include "delay.h"
-#include "mpu6050.h"
-#include "usart.h"
-#include "led.h"
-#include "motor.h"
-#include "wifi.h"
-
+#include "system.h"
 //==========================================================
 //变量集合
 //==========================================================
