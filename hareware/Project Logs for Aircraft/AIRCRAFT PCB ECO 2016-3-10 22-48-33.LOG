@@ -1,0 +1,8 @@
+Change Component Footprint: Designator=U3 Old Footprint=SOT223_M New Footprint=SOT25-5
+Change Component Footprint: Designator=U5 Old Footprint=SOT223_M New Footprint=SOT25-5
+Change Component Footprint: Designator=U9 Old Footprint=SOT223_M New Footprint=SOT25-5
+Change Component Footprint: Designator=U4 Old Footprint=SOT-233 New Footprint=SOT25-5
+Added Pin To Net: NetName=V3D3 Pin=U3-5
+Added Pin To Net: NetName=VSYS Pin=U4-5
+Added Pin To Net: NetName=V33BT Pin=U5-5
+Added Pin To Net: NetName=V33WIFI Pin=U9-5
